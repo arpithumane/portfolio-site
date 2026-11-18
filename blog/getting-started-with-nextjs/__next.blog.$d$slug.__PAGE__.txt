@@ -1,29 +1,64 @@
 1:"$Sreact.fragment"
-2:"/_next/static/chunks/1ua2kfq9s-me6.js"
-3:I[39756,["$2"],"default"]
-4:I[37457,["$2"],"default"]
-e:I[97367,["$2"],"OutletBoundary"]
-f:"$Sreact.suspense"
-12:"ViewportBoundary"
-13:I[97367,["$2"],"$12"]
-14:"MetadataBoundary"
-15:I[97367,["$2"],"$14"]
-:HL["/_next/static/chunks/3xp-kv6dn9lg8.css","style"]
-6:X
-9:X
-9:C
-c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":["$Ld",[["$","script","script-0",{"src":"/_next/static/chunks/067jzxvxj532u.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/2e10eaw81bf-y.js","async":true}]],["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]]}],"p":"$@11","v":null,"s":"$6"}}]]
-a:[["children",{"s":{"n":"slug","t":"d","k":"getting-started-with-nextjs","s":[]},"h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@b","v":"$9","s":"$6"},"c":"$Qc"}]]
-7:[["children",{"s":"blog","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@8","v":"$9","s":"$6"},"c":"$Qa"}]]
-0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3xp-kv6dn9lg8.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/1ua2kfq9s-me6.js","async":true}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900","children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]]}],"p":"$@5","v":null,"s":"$6"},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"My Portfolio"}],["$","meta","1",{"name":"description","content":"Portfolio and blog showcase"}]]}]}],null]}],null]}],"p":"$@16","v":null,"s":"$6"}},"a":"$@17","u":"$@18","b":"tyDU33Zjo1WyYySNNWPsM"}
-d:E{"digest":"NEXT_HTTP_ERROR_FALLBACK;404"}
-10:null
-6:300
-18:true
-6:C
-17:0
-b:"$undefined"
-8:"$undefined"
-5:"$undefined"
-16:"$undefined"
-11:"$undefined"
+2:"/_next/static/chunks/3g4s93ay1hbjl.js"
+3:I[58184,["$2"],"default"]
+4:I[39756,["$2"],"default"]
+5:I[37457,["$2"],"default"]
+e:"/_next/static/chunks/44vkf24_ia8bx.js"
+f:I[22016,["$2","$e"],""]
+10:I[59095,["$2","$e"],"default"]
+16:"ViewportBoundary"
+17:I[97367,["$2"],"$16"]
+18:"MetadataBoundary"
+19:I[97367,["$2"],"$18"]
+1a:"$Sreact.suspense"
+1b:I[27201,["$2"],"IconMark"]
+:HL["/_next/static/chunks/1xu3w1eyyeost.css","style"]
+7:X
+a:X
+a:C
+11:T597,<p>Next.js is a powerful React framework that makes it easy to build fast, scalable web applications. In this article, we'll explore the key features that make Next.js such a popular choice for modern web development.</p>
+<h2>Why Next.js?</h2>
+<p>Next.js provides several advantages:</p>
+<ul>
+<li><strong>Server-side rendering</strong> for better SEO and performance</li>
+<li><strong>Static site generation</strong> for blazing-fast static pages</li>
+<li><strong>API routes</strong> for building backend endpoints</li>
+<li><strong>Automatic code splitting</strong> for optimal performance</li>
+<li><strong>TypeScript support</strong> out of the box</li>
+</ul>
+<h2>Getting Started</h2>
+<p>To create a new Next.js project:</p>
+<pre><code class="language-bash">npx create-next-app@latest my-app
+cd my-app
+npm run dev
+</code></pre>
+<h2>File-based Routing</h2>
+<p>One of the best features of Next.js is its file-based routing system. Create a file in the <code>app</code> directory and it automatically becomes a route:</p>
+<pre><code>app/
+├── page.tsx           → /
+├── about/
+│   └── page.tsx       → /about
+└── blog/
+    └── [slug]/
+        └── page.tsx   → /blog/:slug
+</code></pre>
+<h2>Conclusion</h2>
+<p>Next.js is an excellent framework for building modern web applications. Its built-in features and excellent developer experience make it a great choice for projects of any size.</p>
+d:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","header",null,{"className":"sticky top-0 z-40 border-b border-line/60 bg-ink/80 backdrop-blur-md","children":["$","div",null,{"className":"shell flex flex-wrap items-center justify-between gap-x-4 gap-y-2 py-4","children":[["$","$Lf",null,{"href":"/","className":"text-lg font-bold tracking-[-0.02em] text-fg","children":["arpit",["$","span",null,{"className":"text-lime","children":"."}],"humane"]}],["$","nav",null,{"aria-label":"Primary","className":"flex flex-wrap items-center gap-1 font-mono text-sm","children":[[["$","$Lf","/#work",{"href":"/#work","className":"hidden md:inline-block px-3 py-3 text-fg transition-colors hover:text-lime","children":"/work"}],["$","$Lf","/#off-hours",{"href":"/#off-hours","className":"hidden md:inline-block px-3 py-3 text-fg transition-colors hover:text-lime","children":"/off-hours"}],["$","$Lf","/blog/",{"href":"/blog/","className":" px-3 py-3 text-fg transition-colors hover:text-lime","children":"/writing"}],["$","$Lf","/#about",{"href":"/#about","className":"hidden md:inline-block px-3 py-3 text-fg transition-colors hover:text-lime","children":"/about"}]],["$","a",null,{"href":"mailto:cygnus.element@gmail.com","className":"ml-1 rounded-full bg-lime px-4 py-3 font-medium text-ink transition-colors hover:bg-lime-2","children":"say hi"}]]}]]}]}],["$","main",null,{"className":"shell py-16 md:py-24","children":["$","article",null,{"className":"mx-auto max-w-[760px]","children":[["$","$Lf",null,{"href":"/blog/","className":"mb-12 inline-block py-2 font-mono text-sm text-muted hover:text-lime","children":"← all posts"}],["$","$L10",null,{"children":[["$","p",null,{"className":"mb-4 font-mono text-[13px] text-muted","children":["2024-11-15"," · ",1," min read"]}],["$","h1",null,{"className":"mb-6 text-[clamp(40px,6vw,72px)] font-bold leading-[1.02] tracking-[-0.04em]","children":"Getting Started with Next.js"}],["$","p",null,{"className":"mb-12 border-b border-line pb-12 text-xl leading-relaxed text-fg-2","children":"Learn how to build fast and scalable web applications with Next.js and React."}]]}],["$","div",null,{"className":"post-body","dangerouslySetInnerHTML":{"__html":"$11"}}]]}]}],"$L12"],["$L13"],"$L14"]}],"p":"$@15","v":null,"s":"$7"}}]]
+b:[["children",{"s":{"n":"slug","t":"d","k":"getting-started-with-nextjs","s":[]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@c","v":"$a","s":"$7"},"c":"$Qd"}]]
+8:[["children",{"s":"blog","h":131168,"d":{"r":["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@9","v":"$a","s":"$7"},"c":"$Qb"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1xu3w1eyyeost.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3g4s93ay1hbjl.js","async":true}]],["$","html",null,{"lang":"en","className":"Me-YXa_variable QiOztG_variable","children":["$","body",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]}]]}],"p":"$@6","v":null,"s":"$7"},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[null,["$","$L17",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1a",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Getting Started with Next.js — Arpit Humane"}],["$","meta","1",{"name":"description","content":"Learn how to build fast and scalable web applications with Next.js and React."}],["$","meta","2",{"property":"og:title","content":"Arpit Humane — Data Engineer"}],["$","meta","3",{"property":"og:description","content":"Pipelines for a living, and for everything else."}],["$","meta","4",{"property":"og:url","content":"https://arpithumane.com/"}],["$","meta","5",{"property":"og:site_name","content":"Arpit Humane"}],["$","meta","6",{"property":"og:type","content":"website"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"Arpit Humane — Data Engineer"}],["$","meta","9",{"name":"twitter:description","content":"Pipelines for a living, and for everything else."}],["$","link","10",{"rel":"icon","href":"/icon.svg?icon.1ctthahp_y_7d.svg","sizes":"any","type":"image/svg+xml"}],["$","$L1b","11",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1c","v":null,"s":"$7"}},"a":"$@1d","u":"$@1e","b":"5jGhjrTXSmiJk0cGavlDY"}
+1f:I[97367,["$2"],"OutletBoundary"]
+12:["$","footer",null,{"className":"border-t border-line","children":["$","div",null,{"className":"shell flex flex-wrap justify-between gap-4 py-8 font-mono text-[13px] text-muted","children":[["$","span",null,{"children":["© ",2026," ","Arpit Humane"]}],["$","span",null,{"children":"built with next.js + framer motion"}]]}]}]
+13:["$","script","script-0",{"src":"/_next/static/chunks/44vkf24_ia8bx.js","async":true}]
+14:["$","$L1f",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]
+7:300
+20:null
+1e:true
+7:C
+1d:0
+c:"$undefined"
+9:"$undefined"
+6:"$undefined"
+1c:"$undefined"
+15:"$undefined"
