@@ -1,20 +1,45 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Space_Grotesk, JetBrains_Mono } from 'next/font/google';
+import MotionProvider from '@/components/MotionProvider';
+import { site } from '@/lib/site';
+import './globals.css';
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+  variable: '--font-space-grotesk',
+  display: 'swap',
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  weight: ['400', '500'],
+  variable: '--font-jetbrains-mono',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Portfolio and blog showcase",
+  metadataBase: new URL(site.url),
+  title: {
+    default: `${site.name} — ${site.role}`,
+    template: `%s — ${site.name}`,
+  },
+  description:
+    'Data engineer building lakehouses, ETL pipelines and AI assistants. Also: coffee, a DIY whole-house water system, and lifting + running.',
+  openGraph: {
+    title: `${site.name} — ${site.role}`,
+    description: 'Pipelines for a living, and for everything else.',
+    url: site.url,
+    siteName: site.name,
+    type: 'website',
+  },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-        {children}
+    <html lang="en" className={`${spaceGrotesk.variable} ${jetbrainsMono.variable}`}>
+      <body>
+        <MotionProvider>{children}</MotionProvider>
       </body>
     </html>
   );
