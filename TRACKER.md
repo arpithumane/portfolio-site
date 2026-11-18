@@ -25,11 +25,10 @@ Domain: arpithumane.com · Hosting: GitHub Pages · Last updated: 2026-11-17
 - [x] Blog restyled; markdown rendered with remark-html; post dates fixed (were off by one day due to timezone)
 - [x] trailingSlash: true — /blog/ and /blog/<slug>/ no longer 404
 - [x] Favicon (app/icon.svg); removed unused create-next-app SVGs and old components
+- [x] Redesign live at https://arpithumane.com (cddd7a0, 2026-11-18); Enforce HTTPS on, domain verified
 - [x] Committed CI/Tailwind/workflow fixes (fab219a); Actions deploy passed, gh-pages branch created (2026-11-17)
 
 ## Next up
-- [ ] Review redesign locally (`npm run dev`), then commit + push to go live
-- [ ] Once HTTPS is stable on all URLs: enable "Enforce HTTPS" (cert issued 2026-11-17, expires 2027-02-15, auto-renews)
 - [ ] Fill placeholders in lib/site.ts:
       GitHub + LinkedIn URLs, water filter stage types + install month + "hardest part" line,
       coffee recipes/beans/grinder/machine, next training goal
@@ -42,6 +41,7 @@ Domain: arpithumane.com · Hosting: GitHub Pages · Last updated: 2026-11-17
       5. Replace the "syncing soon" card in components/OffHours.tsx (YTD km, recent runs)
 
 ## Later
+- [ ] next-env.d.ts flips between .next/ and .next/dev/ paths after dev vs build runs; consider adding it to .gitignore
 - [ ] Replace the two starter blog posts with real ones in posts/ (data engineering topics)
 - [ ] Update workflow: actions/checkout & setup-node to Node 24-compatible versions, node-version 20 → 22+ (Node 20 deprecation warning in CI)
 - [ ] Per-project case-study pages (currently rows expand inline)
